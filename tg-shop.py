@@ -9,7 +9,7 @@ REQUEST_NAME = 1
 REQUEST_ADDRESS = 2
 REQUEST_PHONE = 3
 
-bot = telebot.TeleBot("1871011212:AAElCnNTa4bisSn7DA45jpIgWeX-A1A63aY")
+bot = telebot.TeleBot("")
 
 db.connect()
 db.create_tables([Product, Client, Order])
